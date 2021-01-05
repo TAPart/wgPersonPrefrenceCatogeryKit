@@ -1,0 +1,23 @@
+PODS:
+  - CTMediator (44)
+  - wgPersonPrefrenceCatogeryKit (1):
+    - CTMediator (~> 44)
+
+DEPENDENCIES:
+  - wgPersonPrefrenceCatogeryKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  wgPersonPrefrenceCatogeryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
+  wgPersonPrefrenceCatogeryKit: bf459ec7f3b3a37d9ef850924953673dbf3dd6ab
+
+PODFILE CHECKSUM: 27810701ac2bb9ec2800a37fab0fb64f1b949e8a
+
+COCOAPODS: 1.10.0

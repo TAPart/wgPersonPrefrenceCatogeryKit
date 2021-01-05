@@ -1,0 +1,27 @@
+{
+  "name": "wgPersonPrefrenceCatogeryKit",
+  "version": "1",
+  "summary": "A short description of wgPersonPrefrenceCatogeryKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/TAPart/wgPersonPrefrenceCatogeryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ra2212": "xhf@tsinghua.com"
+  },
+  "source": {
+    "git": "https://github.com/TAPart/wgPersonPrefrenceCatogeryKit.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "wgPersonPrefrenceCatogeryKit/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+      "~> 44"
+    ]
+  }
+}
