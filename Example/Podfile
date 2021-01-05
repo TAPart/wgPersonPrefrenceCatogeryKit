@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'wgPersonPrefrenceCatogeryKit_Example' do
+  pod 'wgPersonPrefrenceCatogeryKit', :path => '../'
+
+  target 'wgPersonPrefrenceCatogeryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
