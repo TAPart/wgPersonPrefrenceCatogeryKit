@@ -22,7 +22,6 @@
 		70FCEDE2F7F6BDB326B8C02D23FC9B34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C11EA0F40A9312CDF915E9960D9208 /* Foundation.framework */; };
 		7F6DE10E33BD76C9B226D73463E9AA8B /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2E74791FBAEF93692D80AA8C0074CB /* CTMediator+HandyTools.m */; };
 		85E852237B389D98F5348394C67BF004 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D036CF1CFF4F33250BE17BFBFAD02 /* CTMediator-dummy.m */; };
-		88F5CBFC5FC2104BD6A0CAFA20D9A30D /*  cHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = FC26264ACB27288BE814A1442A17ECF3 /*  cHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3D6470C1A7A19569A11C049213DD807 /* Pods-wgPersonPrefrenceCatogeryKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A5E76CCFBF47AF20069C595C3B740 /* Pods-wgPersonPrefrenceCatogeryKit_Tests-dummy.m */; };
 		B1CB4F48D988F8C2E35579AAF0931A4E /* Pods-wgPersonPrefrenceCatogeryKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 725601ABB10BF82595575E75405439F2 /* Pods-wgPersonPrefrenceCatogeryKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B623D8B678FA3C4E8E05BA9F192B7FA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A581F9630D6BD8245A438533D1A2ADEF /* CoreGraphics.framework */; };
@@ -65,7 +64,7 @@
 /* Begin PBXFileReference section */
 		0F8270B1162032294E31F1888ECBCB27 /* wgPersonPrefrenceCatogeryKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wgPersonPrefrenceCatogeryKit.debug.xcconfig; sourceTree = "<group>"; };
 		2247F2FE5D76EEBFEB037DEF060A01AF /* Pods-wgPersonPrefrenceCatogeryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wgPersonPrefrenceCatogeryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2A0DE80FBA3770FB9F3C01F3A6C9839E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2A0DE80FBA3770FB9F3C01F3A6C9839E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		31768D178989321845D1709C09F19D32 /* Pods-wgPersonPrefrenceCatogeryKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wgPersonPrefrenceCatogeryKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3A5A5E76CCFBF47AF20069C595C3B740 /* Pods-wgPersonPrefrenceCatogeryKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wgPersonPrefrenceCatogeryKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		3DCA72FAA6DF50B01846A17CDDCB44AC /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
@@ -74,7 +73,7 @@
 		4F2E74791FBAEF93692D80AA8C0074CB /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+HandyTools.m"; path = "CTMediator/CTMediator/CTMediator+HandyTools.m"; sourceTree = "<group>"; };
 		56475E748DED4AF0EB9AA2F483A19830 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
 		6754E2EEFEB01E83146E84C33EE1A4CA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = wgPersonPrefrenceCatogeryKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69C11EA0F40A9312CDF915E9960D9208 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A3A58225C1DA3E112E55D80B79A8B16 /* wgPersonPrefrenceCatogeryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wgPersonPrefrenceCatogeryKit-prefix.pch"; sourceTree = "<group>"; };
 		725601ABB10BF82595575E75405439F2 /* Pods-wgPersonPrefrenceCatogeryKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wgPersonPrefrenceCatogeryKit_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -85,34 +84,34 @@
 		821C37EB3417E658BD9793D1D13D6AA3 /* wgPersonPrefrenceCatogeryKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wgPersonPrefrenceCatogeryKit.release.xcconfig; sourceTree = "<group>"; };
 		8480E69E90CB91B6B1C2DE55FF06CADC /* Pods-wgPersonPrefrenceCatogeryKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-wgPersonPrefrenceCatogeryKit_Example.modulemap"; sourceTree = "<group>"; };
 		8B512F4907981BB55E9859A8D676E87C /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
-		921FFBD896C1741C4ECDB1B90ABDF8D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		921FFBD896C1741C4ECDB1B90ABDF8D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9A444AD508D9C46401262B02A5315A6E /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
 		9A72C6DD981122CCBDC7F92106DF32D2 /* wgPersonPrefrenceCatogeryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = wgPersonPrefrenceCatogeryKit.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FDF4CBA298983A1F2FBA7DF2664CA3E /* Pods-wgPersonPrefrenceCatogeryKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wgPersonPrefrenceCatogeryKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A1D8D3AF5F05FFE21CDD5700F3A7726F /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
 		A581F9630D6BD8245A438533D1A2ADEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		A956F592C176A2C7B4A0EB09F59C3428 /* Pods-wgPersonPrefrenceCatogeryKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wgPersonPrefrenceCatogeryKit_Example-Info.plist"; sourceTree = "<group>"; };
 		AB9A0FCD374925F5087277E68B1A2916 /* CTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.debug.xcconfig; sourceTree = "<group>"; };
-		AD83719FFB2A68474286925F393A6BBC /* wgPersonPrefrenceCatogeryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = wgPersonPrefrenceCatogeryKit.framework; path = wgPersonPrefrenceCatogeryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD83719FFB2A68474286925F393A6BBC /* wgPersonPrefrenceCatogeryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = wgPersonPrefrenceCatogeryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27424222B6187A004B070320AC153B4 /* Pods-wgPersonPrefrenceCatogeryKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wgPersonPrefrenceCatogeryKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B5B33CF84E4A91D636092AFE5A61AADD /* CTMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.release.xcconfig; sourceTree = "<group>"; };
+		B60011F325A6A0DC00FC311E /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8E07694AAAA506209184D52124408C /* Pods-wgPersonPrefrenceCatogeryKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-wgPersonPrefrenceCatogeryKit_Tests.modulemap"; sourceTree = "<group>"; };
-		C942E7674AA5D5F8F9CF0B347ABA1F09 /* wgPersonPrefrenceCatogeryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = wgPersonPrefrenceCatogeryKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C942E7674AA5D5F8F9CF0B347ABA1F09 /* wgPersonPrefrenceCatogeryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = wgPersonPrefrenceCatogeryKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C96093C572713ED377A7932B366F394A /* Pods-wgPersonPrefrenceCatogeryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wgPersonPrefrenceCatogeryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C9AD317C8D8CB74428F7B8CDFD4A201B /* CTMediator+TAPersonPreference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TAPersonPreference.h"; sourceTree = "<group>"; };
 		D000759AC301371CF83FB8642048EBDC /* wgPersonPrefrenceCatogeryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "wgPersonPrefrenceCatogeryKit-Info.plist"; sourceTree = "<group>"; };
-		D1A53D0CADE03EB4F1EB55FECF74B8FC /* Pods_wgPersonPrefrenceCatogeryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wgPersonPrefrenceCatogeryKit_Example.framework; path = "Pods-wgPersonPrefrenceCatogeryKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A53D0CADE03EB4F1EB55FECF74B8FC /* Pods_wgPersonPrefrenceCatogeryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wgPersonPrefrenceCatogeryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C9F2F0EE1F29201EEF99B22BEC8628 /* Pods-wgPersonPrefrenceCatogeryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wgPersonPrefrenceCatogeryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D54F5018BB0377BAF073F3E6EA32C94E /* wgPersonPrefrenceCatogeryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wgPersonPrefrenceCatogeryKit-umbrella.h"; sourceTree = "<group>"; };
 		DD8BE542B5AD551C5A1F7A18E8B8A9F4 /* Pods-wgPersonPrefrenceCatogeryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wgPersonPrefrenceCatogeryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DDC0854119231BA87D8BE3B9BE474DEC /* Pods-wgPersonPrefrenceCatogeryKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wgPersonPrefrenceCatogeryKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		E56D036CF1CFF4F33250BE17BFBFAD02 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
-		E9DDE7BD39DA8FAF6D502456FCFAFA07 /* Pods_wgPersonPrefrenceCatogeryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wgPersonPrefrenceCatogeryKit_Tests.framework; path = "Pods-wgPersonPrefrenceCatogeryKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DDE7BD39DA8FAF6D502456FCFAFA07 /* Pods_wgPersonPrefrenceCatogeryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wgPersonPrefrenceCatogeryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F583DD91CEFE4C55F4CA463B48626EE7 /* Pods-wgPersonPrefrenceCatogeryKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wgPersonPrefrenceCatogeryKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		F705F2505D83F2C428C947F7A985CD34 /* Pods-wgPersonPrefrenceCatogeryKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wgPersonPrefrenceCatogeryKit_Example-dummy.m"; sourceTree = "<group>"; };
-		FC26264ACB27288BE814A1442A17ECF3 /*  cHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = " cHeader.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,7 +178,6 @@
 				4F2E74791FBAEF93692D80AA8C0074CB /* CTMediator+HandyTools.m */,
 				BBE34334C3A810566C293A2E5FC95DE1 /* Support Files */,
 			);
-			name = CTMediator;
 			path = CTMediator;
 			sourceTree = "<group>";
 		};
@@ -203,7 +201,7 @@
 		6C28045B930C91DB3CC5EBCF801FDB98 /* wgPersonPrefrenceCatogery */ = {
 			isa = PBXGroup;
 			children = (
-				FC26264ACB27288BE814A1442A17ECF3 /*  cHeader.h */,
+				B60011F325A6A0DC00FC311E /* Header.h */,
 				C9AD317C8D8CB74428F7B8CDFD4A201B /* CTMediator+TAPersonPreference.h */,
 				75CEB8D045FDA3FA6CC78DA5D61C8EDE /* CTMediator+TAPersonPreference.m */,
 			);
@@ -353,7 +351,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88F5CBFC5FC2104BD6A0CAFA20D9A30D /*  cHeader.h in Headers */,
 				334B3A8901561AB2A77C806F4B417D7F /* CTMediator+TAPersonPreference.h in Headers */,
 				301F0CC3A26A8391552C56F480AD938E /* wgPersonPrefrenceCatogeryKit-umbrella.h in Headers */,
 			);
@@ -884,8 +881,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

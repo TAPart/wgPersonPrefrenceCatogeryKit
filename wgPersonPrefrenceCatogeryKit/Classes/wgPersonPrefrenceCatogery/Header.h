@@ -1,17 +1,17 @@
 //
-//   cHeader.h
-//  ZationDemo
+//  Header.h
+//  Pods
 //
 //  Created by NaOH on 2021/1/7.
 //
 
-#ifndef _cHeader_h
-#define _cHeader_h
+#ifndef Header_h
+#define Header_h
 
 
-
-#endif /* _cHeader_h */
+#endif /* Header_h */
 
 
 #import <CTMediator/CTMediator.h>
+#import <CTMediator/CTMediator+HandyTools.h>
 #import "CTMediator+TAPersonPreference.h"
