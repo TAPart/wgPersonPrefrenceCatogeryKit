@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import " cHeader.h"
 #import "CTMediator+TAPersonPreference.h"
 
 FOUNDATION_EXPORT double wgPersonPrefrenceCatogeryKitVersionNumber;
